@@ -31,7 +31,8 @@ twitter_username: nhavo
 github_username:  nhavo-it
 
 # Build settings
-theme: just-the-docs
+#theme: just-the-docs
+theme: minima
 plugins:
   - jekyll-feed
 
