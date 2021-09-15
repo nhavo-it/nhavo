@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Portfolio
-permalink: /portfolio/
+permalink: /portfolio
+thumbnail: https://getuikit.com/v2/docs/images/placeholder_600x400.svg
+desc: Đây là mô tả chức năng, chưa biết viết gì nên show đại
 ---
 
 

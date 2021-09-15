@@ -321,4 +321,14 @@ table td { border: 1px solid #e8e8e8; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
+.home-grid { display: flex; margin-right: -15px; margin-left: -15px; }
+
+.home-grid .grid-item { float: left; position: relative; min-height: 1px; margin: 15px; border: 1px solid rgba(0, 0, 0, 0.125); border-radius: .25rem; }
+
+.home-grid .grid-item .grid-caption { padding: 10px; }
+
+.home-grid .grid-item .grid-caption .grid-title { font-weight: bold; text-align: center; padding-bottom: 10px; }
+
+.home-grid .grid-item .grid-caption .grid-desc { color: black; }
+
 /*# sourceMappingURL=style.css.map */

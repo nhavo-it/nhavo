@@ -340,3 +340,28 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+.home-grid{
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  .grid-item{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 15px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    .grid-caption{
+      padding: 10px;
+      .grid-title{
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      .grid-desc{
+        color: black;
+      }
+    }
+  }
+}
